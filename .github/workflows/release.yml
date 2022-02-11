@@ -2,8 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - master
-      - staging
+      - main
       - devel
 jobs:
   release:
