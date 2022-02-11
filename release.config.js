@@ -13,26 +13,26 @@ module.exports = {
 	plugins: [
 		"@semantic-release/commit-analyzer",
 		"@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
-    "@semantic-release/github",
-    "@semantic-release/npm",
-    [
-      "@semantic-release/git",
-      {"assets": ["CHANGELOG.md", "package.json", "package-lock.json"]}
-    ],
+		"@semantic-release/changelog",
+		"@semantic-release/github",
+		"@semantic-release/npm",
 		[
-      "@saithodev/semantic-release-backmerge",
-      {
-        "branches": ["staging", "devel"],
-        "plugins": [
-          [
-            "@semantic-release/exec",
-            {
-              "successCmd": "echo 'Version in master is ${nextRelease.version}' > test.txt && git add test.txt"
-            }
-          ]
-        ]
-      }
-    ]
+			"@semantic-release/git",
+			{"assets": ["CHANGELOG.md", "package.json", "package-lock.json"]}
+		],
+		[
+			"@saithodev/semantic-release-backmerge",
+			{
+				"branches": ["staging", "devel"],
+				"plugins": [
+					[
+						"@semantic-release/exec",
+						{
+							"successCmd": "echo 'Version in master is ${nextRelease.version}' > test.txt && git add test.txt"
+						}
+					]
+				]
+			}
+		]
 	]
 }
