@@ -19,6 +19,20 @@ module.exports = {
     [
       "@semantic-release/git",
       {"assets": ["CHANGELOG.md", "package.json", "package-lock.json"]}
+    ],
+		[
+      "@saithodev/semantic-release-backmerge",
+      {
+        "branches": ["staging", "devel"],
+        "plugins": [
+          [
+            "@semantic-release/exec",
+            {
+              "successCmd": "echo 'Version in master is ${nextRelease.version}' > test.txt && git add test.txt"
+            }
+          ]
+        ]
+      }
     ]
 	]
 }
