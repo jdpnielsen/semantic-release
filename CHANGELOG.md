@@ -1,3 +1,10 @@
+# [1.1.0-devel.3](https://github.com/jdpnielsen/semantic-release/compare/v1.1.0-devel.2...v1.1.0-devel.3) (2022-02-11)
+
+
+### Bug Fixes
+
+* add missing dep ([d998c3c](https://github.com/jdpnielsen/semantic-release/commit/d998c3c169032b4e007e98d61c3a2a86c4862191))
+
 # [1.1.0-devel.2](https://github.com/jdpnielsen/semantic-release/compare/v1.1.0-devel.1...v1.1.0-devel.2) (2022-02-11)
 
 
