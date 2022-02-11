@@ -1,3 +1,11 @@
+# [1.1.0-devel.2](https://github.com/jdpnielsen/semantic-release/compare/v1.1.0-devel.1...v1.1.0-devel.2) (2022-02-11)
+
+
+### Features
+
+* add backmerge ([1dfa029](https://github.com/jdpnielsen/semantic-release/commit/1dfa0297305dda6a8b43eae66d856c7d854486c7))
+* configure backmerge ([760db44](https://github.com/jdpnielsen/semantic-release/commit/760db44d9a5b567e3945db00af0a9c1d029db491))
+
 # [1.1.0-devel.1](https://github.com/jdpnielsen/semantic-release/compare/v1.0.0...v1.1.0-devel.1) (2022-02-11)
 
 
