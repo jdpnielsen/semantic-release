@@ -1,5 +1,6 @@
 {
   "name": "semantic-release",
+  "repository": { "type": "git", "url": "https://github.com/jdpnielsen/semantic-release.git" },
   "private": true,
   "scripts": {
     "dev": "next dev",
