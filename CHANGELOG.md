@@ -1,3 +1,10 @@
+# [1.1.0-devel.4](https://github.com/jdpnielsen/semantic-release/compare/v1.1.0-devel.3...v1.1.0-devel.4) (2022-02-11)
+
+
+### Bug Fixes
+
+* backmerge branch config ([2bf7781](https://github.com/jdpnielsen/semantic-release/commit/2bf778153556fdc394e01c499b2c2aac6f7de73c))
+
 # [1.1.0-devel.3](https://github.com/jdpnielsen/semantic-release/compare/v1.1.0-devel.2...v1.1.0-devel.3) (2022-02-11)
 
 
