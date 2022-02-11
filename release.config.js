@@ -23,7 +23,7 @@ module.exports = {
 		[
 			"@saithodev/semantic-release-backmerge",
 			{
-				"branches": ["staging", "devel"],
+				"branches": [{from: "main", to: "staging"}, {from: "staging", to: "devel"}],
 				"plugins": [
 					[
 						"@semantic-release/exec",
