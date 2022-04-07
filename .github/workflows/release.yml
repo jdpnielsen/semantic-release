@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+  workflow_run:
+    workflows: ["Fast-Forward PR"]
+    types:
+      - completed
 jobs:
   release:
     name: Release
