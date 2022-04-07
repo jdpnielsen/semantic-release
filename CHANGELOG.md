@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/jdpnielsen/semantic-release/compare/v1.4.2...v1.5.0) (2022-04-07)
+
+
+### Features
+
+* add workflow trigger ([45079fd](https://github.com/jdpnielsen/semantic-release/commit/45079fdc028d284614238c7db17cee4a8f45457a))
+
 ### [1.4.2](https://github.com/jdpnielsen/semantic-release/compare/v1.4.1...v1.4.2) (2022-04-07)
 
 
