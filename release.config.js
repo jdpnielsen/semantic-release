@@ -8,6 +8,7 @@ module.exports = {
 		["@semantic-release/commit-analyzer", {
 			preset: "conventionalcommits",
 			parserOpts: preset,
+			releaseRules: "./config/release-rules.js",
 		}],
 		["@semantic-release/release-notes-generator", {
 			preset: "conventionalcommits",
