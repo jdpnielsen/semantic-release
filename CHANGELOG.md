@@ -1,3 +1,11 @@
+### [1.4.1](https://github.com/jdpnielsen/semantic-release/compare/v1.4.0...v1.4.1) (2022-04-07)
+
+
+### Bug Fixes
+
+* testing fix type ([bf30bcb](https://github.com/jdpnielsen/semantic-release/commit/bf30bcbd3873510c7f8e878aa7274fb234c5c837))
+* testing fix type again ([d76a21b](https://github.com/jdpnielsen/semantic-release/commit/d76a21b3a78bdbedb338ce1b9c029bd91f8b52e8))
+
 ## [1.4.0](https://github.com/jdpnielsen/semantic-release/compare/v1.3.0...v1.4.0) (2022-04-07)
 
 
