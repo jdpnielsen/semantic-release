@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - main
-      - staging
-      - devel
 jobs:
   release:
     name: Release
