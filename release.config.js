@@ -11,6 +11,7 @@ module.exports = {
 		}],
 		["@semantic-release/release-notes-generator", {
 			preset: "conventionalcommits",
+			parserOpts: preset,
 		}],
 		"@semantic-release/changelog",
 		"@semantic-release/github",
