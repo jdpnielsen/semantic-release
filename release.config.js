@@ -1,14 +1,6 @@
 module.exports = {
 	branches: [
-		'main',
-		{
-			name: 'staging',
-			prerelease: true,
-		},
-		{
-			name: 'devel',
-			prerelease: true,
-		},
+		'main'
 	],
 	plugins: [
 		["@semantic-release/commit-analyzer", {
@@ -27,7 +19,7 @@ module.exports = {
 		[
 			"@saithodev/semantic-release-backmerge",
 			{
-				"branches": [{from: "main", to: "staging"}, {from: "staging", to: "devel"}],
+				"branches": [{from: "main", to: "staging"}, {from: "main", to: "devel"}],
 				"plugins": [
 					[
 						"@semantic-release/exec",
