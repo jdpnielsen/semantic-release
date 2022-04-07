@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/jdpnielsen/semantic-release/compare/v1.3.0...v1.4.0) (2022-04-07)
+
+
+### Features
+
+* add parseOpts config ([9b19c7f](https://github.com/jdpnielsen/semantic-release/commit/9b19c7f9c3f3616896899d0f1191f9d056422494))
+
 ## [1.3.0](https://github.com/jdpnielsen/semantic-release/compare/v1.2.0...v1.3.0) (2022-04-07)
 
 
