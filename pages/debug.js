@@ -6,7 +6,7 @@ export default function Debug() {
       <p>Testing release type:</p>
       <ul>
         <li>fix</li>
-        <li>ci</li>
+        <li>ci ?</li>
       </ul>
     </div>
   )
