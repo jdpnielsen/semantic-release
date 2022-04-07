@@ -22,9 +22,9 @@
     "commit": "git-cz"
   },
   "dependencies": {
-    "next": "12.0.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
@@ -35,8 +35,8 @@
     "@semantic-release/git": "^10.0.1",
     "@types/conventional-changelog-config-spec": "^2.1.1",
     "conventional-changelog-conventionalcommits": "^4.6.3",
-    "eslint": "8.8.0",
-    "eslint-config-next": "12.0.10",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
     "git-cz": "^4.8.0",
     "husky": "^7.0.4",
     "semantic-release": "^19.0.2"
