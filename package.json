@@ -5,6 +5,7 @@
     "type": "git",
     "url": "https://github.com/jdpnielsen/semantic-release.git"
   },
+  "license": "MIT",
   "author": {
     "name": "Joshua Nielsen",
     "url": "https://github.com/jdpnielsen"
