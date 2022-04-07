@@ -1,3 +1,10 @@
+### [1.6.4](https://github.com/jdpnielsen/semantic-release/compare/v1.6.3...v1.6.4) (2022-04-07)
+
+
+### Improvements
+
+* testing release log ([a98bbec](https://github.com/jdpnielsen/semantic-release/commit/a98bbecf6f39b28319e3acdfaf87e5a39c9ebd5f))
+
 ### [1.6.3](https://github.com/jdpnielsen/semantic-release/compare/v1.6.2...v1.6.3) (2022-04-07)
 
 ### [1.6.2](https://github.com/jdpnielsen/semantic-release/compare/v1.6.1...v1.6.2) (2022-04-07)
