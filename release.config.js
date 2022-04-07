@@ -19,15 +19,7 @@ module.exports = {
 		[
 			"@saithodev/semantic-release-backmerge",
 			{
-				"branches": [{from: "main", to: "staging"}, {from: "main", to: "devel"}],
-				"plugins": [
-					[
-						"@semantic-release/exec",
-						{
-							"successCmd": "echo 'Version in master is ${nextRelease.version}' > test.txt && git add test.txt"
-						}
-					]
-				]
+				"branches": [{from: "main", to: "staging"}, {from: "main", to: "devel"}]
 			}
 		]
 	]
