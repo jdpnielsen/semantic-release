@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/jdpnielsen/semantic-release/compare/v1.1.0...v1.2.0) (2022-04-07)
+
+
+### Features
+
+* debug data ([5654c08](https://github.com/jdpnielsen/semantic-release/commit/5654c0846e5b3f7613aa425166ee0fb62fe6f233))
+
 ## [1.1.0](https://github.com/jdpnielsen/semantic-release/compare/v1.0.0...v1.1.0) (2022-04-07)
 
 
