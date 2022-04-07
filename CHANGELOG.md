@@ -1,3 +1,10 @@
+## [1.1.0-devel.5](https://github.com/jdpnielsen/semantic-release/compare/v1.1.0-devel.4...v1.1.0-devel.5) (2022-04-07)
+
+
+### Bug Fixes
+
+* add missing dependency ([77cdc2b](https://github.com/jdpnielsen/semantic-release/commit/77cdc2bc444afe316d0cba600c5e053f2d172374))
+
 # [1.1.0-devel.4](https://github.com/jdpnielsen/semantic-release/compare/v1.1.0-devel.3...v1.1.0-devel.4) (2022-02-11)
 
 
