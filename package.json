@@ -8,7 +8,8 @@
   "license": "MIT",
   "author": {
     "name": "Joshua Nielsen",
-    "url": "https://github.com/jdpnielsen"
+    "url": "https://github.com/jdpnielsen",
+    "email": "jdpnielsen@gmail.com"
   },
   "private": true,
   "scripts": {
