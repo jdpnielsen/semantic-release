@@ -1,3 +1,10 @@
+### [1.4.2](https://github.com/jdpnielsen/semantic-release/compare/v1.4.1...v1.4.2) (2022-04-07)
+
+
+### Bug Fixes
+
+* fix ff action ([729a3a4](https://github.com/jdpnielsen/semantic-release/commit/729a3a4d022e539a01988bba962841bc47e28270))
+
 ### [1.4.1](https://github.com/jdpnielsen/semantic-release/compare/v1.4.0...v1.4.1) (2022-04-07)
 
 
