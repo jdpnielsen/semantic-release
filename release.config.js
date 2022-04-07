@@ -7,7 +7,7 @@ module.exports = {
 	plugins: [
 		["@semantic-release/commit-analyzer", {
 			preset: "conventionalcommits",
-			parserOpts: preset,
+			presetConfig: preset,
 			releaseRules: "./config/release-rules.js",
 		}],
 		["@semantic-release/release-notes-generator", {
