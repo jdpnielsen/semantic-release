@@ -1,3 +1,5 @@
+const preset = require('./config/changelog-preset');
+
 module.exports = {
 	branches: [
 		'main'
@@ -5,6 +7,7 @@ module.exports = {
 	plugins: [
 		["@semantic-release/commit-analyzer", {
 			preset: "conventionalcommits",
+			parserOpts: preset,
 		}],
 		["@semantic-release/release-notes-generator", {
 			preset: "conventionalcommits",
