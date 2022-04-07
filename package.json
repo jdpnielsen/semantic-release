@@ -16,7 +16,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "commitlint": "commitlint --from HEAD~1 --to HEAD --verbose",
+    "prepare": "husky install",
+    "commit": "git-cz"
   },
   "dependencies": {
     "next": "12.0.10",
@@ -24,13 +27,28 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "@saithodev/semantic-release-backmerge": "^2.1.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@types/conventional-changelog-config-spec": "^2.1.1",
     "conventional-changelog-conventionalcommits": "^4.6.3",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
+    "git-cz": "^4.8.0",
+    "husky": "^7.0.4",
     "semantic-release": "^19.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -g ./config/commitlint.config.js -E HUSKY_GIT_PARAMS"
+    }
   }
 }
