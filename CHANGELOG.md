@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/jdpnielsen/semantic-release/compare/v1.5.0...v1.6.0) (2022-04-07)
+
+
+### Features
+
+* add questionmark ([c7eb446](https://github.com/jdpnielsen/semantic-release/commit/c7eb44660fbad6ad4473bf6b2b7564631ae3c308))
+
 ## [1.5.0](https://github.com/jdpnielsen/semantic-release/compare/v1.4.2...v1.5.0) (2022-04-07)
 
 
