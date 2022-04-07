@@ -1,0 +1,33 @@
+name: Build
+on:
+  push:
+    branches:
+      - main
+      - staging
+      - devel
+  pull_request:
+    branches: [ devel, staging, master, next ]
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: Manual triggered build
+        required: false
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 'lts/*'
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Build bundle
+        run: npm run build
