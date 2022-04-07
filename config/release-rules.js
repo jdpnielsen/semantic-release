@@ -1,10 +1,12 @@
 const { types } = require('../changelog.config');
 
-const changelogTypes = Object.keys(types).map((k) => {
-  const { value: type, release } = types[k];
+const changelogTypes = Object.keys(types)
+  .map((k) => {
+    const { value: type, release } = types[k];
 
-  return { type, release };
-});
+    return { type, release };
+  })
+  .filter((e) => e.release && e.release !== 'no-release');
 
 /**
  * Default `releaseRules` rules for common commit formats, following conventions.
