@@ -1,3 +1,17 @@
+## [1.3.0](https://github.com/jdpnielsen/semantic-release/compare/v1.2.0...v1.3.0) (2022-04-07)
+
+
+### Features
+
+* implement commitlint ([a4a28d9](https://github.com/jdpnielsen/semantic-release/commit/a4a28d9bd3ca0afc0f54fc4cc8f0dd3c7843c3e8))
+* remove test artifact from being generated ([6d86a16](https://github.com/jdpnielsen/semantic-release/commit/6d86a168de8826190b0f1ac9fcb533cc9b35487e))
+
+
+### Bug Fixes
+
+* point commitlint to config path ([ca28f6f](https://github.com/jdpnielsen/semantic-release/commit/ca28f6fefb96acfd830e05a626ef135491da498e))
+* remove release notes from release commit ([d7b10e6](https://github.com/jdpnielsen/semantic-release/commit/d7b10e62e45e0691b376c49930ab84a34f761d7d))
+
 ## [1.2.0](https://github.com/jdpnielsen/semantic-release/compare/v1.1.0...v1.2.0) (2022-04-07)
 
 
