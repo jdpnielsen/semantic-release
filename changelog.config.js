@@ -8,6 +8,7 @@ module.exports = {
 		'fix',
 		'test',
 		'chore',
+		'deps',
 		'docs',
 		'refactor',
 		'style',
@@ -67,6 +68,13 @@ module.exports = {
 		refactor: {
 			description: 'A code change that neither fixes a bug or adds a feature',
 			value: 'refactor',
+			section: 'Improvements',
+			hidden: false,
+			release: 'patch', 
+		},
+		deps: {
+			description: 'Change or update dependencies',
+			value: 'deps',
 			section: 'Improvements',
 			hidden: false,
 			release: 'patch', 
