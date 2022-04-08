@@ -8,6 +8,7 @@ export default function Debug() {
         <li>feat - ✅</li>
         <li>fix - ✅</li>
         <li>ci - ❌</li>
+        <li>refactor - ✅</li>
       </ul>
     </div>
   )
