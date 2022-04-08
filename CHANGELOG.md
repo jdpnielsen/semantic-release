@@ -1,3 +1,28 @@
+### [1.6.6](https://github.com/jdpnielsen/semantic-release/compare/v1.6.5...v1.6.6) (2022-04-08)
+
+
+### Features
+
+* add additional checks to fast-forward-pr action ([07b9698](https://github.com/jdpnielsen/semantic-release/commit/07b9698ca151b6fa6bd49ea09e7e964f197ecb35))
+* add checkmarks to test release type list ([6744aa0](https://github.com/jdpnielsen/semantic-release/commit/6744aa0f41a44920ba18953a4847e970954fa58b))
+
+
+### Documentation
+
+* update readme to match repo purpose ([d1b39bd](https://github.com/jdpnielsen/semantic-release/commit/d1b39bd1e2bdf75fa8460fba08bbf49c29bfb1c3))
+
+
+### Improvements
+
+* testing issue footer ([5427a8e](https://github.com/jdpnielsen/semantic-release/commit/5427a8e1198e3cb40ad997f62ba4e959efe54e93))
+
+
+### Fixes
+
+* github action syntax error ([1bd9f89](https://github.com/jdpnielsen/semantic-release/commit/1bd9f8952b1cee7c6993751e33f0b8796925b820))
+* test name ([bd6c0c4](https://github.com/jdpnielsen/semantic-release/commit/bd6c0c4ac634c815aacc375e18ac79fc8634465e))
+* use job name instead of workflow name for check ([54b45f2](https://github.com/jdpnielsen/semantic-release/commit/54b45f212d40ec2a95bb2852a5ad0813d23f8253))
+
 ### [1.6.5](https://github.com/jdpnielsen/semantic-release/compare/v1.6.4...v1.6.5) (2022-04-07)
 
 ### [1.6.4](https://github.com/jdpnielsen/semantic-release/compare/v1.6.3...v1.6.4) (2022-04-07)
