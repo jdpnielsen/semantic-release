@@ -5,8 +5,9 @@ export default function Debug() {
       <pre>{JSON.stringify({ debug: true }, null, 2)}</pre>
       <p>Testing release type:</p>
       <ul>
-        <li>fix</li>
-        <li>ci</li>
+        <li>feat - ✅</li>
+        <li>fix - ✅</li>
+        <li>ci - ❌</li>
       </ul>
     </div>
   )
