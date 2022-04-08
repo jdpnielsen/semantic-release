@@ -9,6 +9,7 @@ export default function Debug() {
         <li>fix - ✅</li>
         <li>ci - ❌</li>
         <li>refactor - ✅</li>
+        <li>style - ✅</li>
       </ul>
     </div>
   )
