@@ -1,3 +1,10 @@
+### [1.6.10](https://github.com/jdpnielsen/semantic-release/compare/v1.6.9...v1.6.10) (2022-04-25)
+
+
+### Fixes
+
+* update dependency and allow merge to protected branch ([c780617](https://github.com/jdpnielsen/semantic-release/commit/c780617739b36a006051f9ad93feb993a23e0672))
+
 ### [1.6.9](https://github.com/jdpnielsen/semantic-release/compare/v1.6.8...v1.6.9) (2022-04-25)
 
 
