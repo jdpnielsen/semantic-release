@@ -1,3 +1,10 @@
+### [1.6.9](https://github.com/jdpnielsen/semantic-release/compare/v1.6.8...v1.6.9) (2022-04-25)
+
+
+### Fixes
+
+* use pr sha ([739fd42](https://github.com/jdpnielsen/semantic-release/commit/739fd42045f36b178d2a1e17816827a36a304475))
+
 ### [1.6.8](https://github.com/jdpnielsen/semantic-release/compare/v1.6.7...v1.6.8) (2022-04-25)
 
 ### [1.6.7](https://github.com/jdpnielsen/semantic-release/compare/v1.6.6...v1.6.7) (2022-04-22)
