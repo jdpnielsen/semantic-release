@@ -1,3 +1,5 @@
+### [1.6.8](https://github.com/jdpnielsen/semantic-release/compare/v1.6.7...v1.6.8) (2022-04-25)
+
 ### [1.6.7](https://github.com/jdpnielsen/semantic-release/compare/v1.6.6...v1.6.7) (2022-04-22)
 
 
